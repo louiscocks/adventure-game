@@ -1,0 +1,110 @@
+body {
+	background-color: black;
+	font-family: helvetica, sans-serif;
+	padding: 0px;
+    margin: 0px;
+}
+
+.container {
+	width: 900px;
+    top: 75px;
+	margin: auto;
+	padding: auto;
+	position: relative;
+}
+
+#level_image {
+	height: 500px;
+	width: 900px;
+}
+
+#level_title {
+	font-size: 20px;
+	color: white;		
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+    background-image: url();
+}
+
+#toto {
+    transform: translate(-50%, -50%);
+	position: absolute;
+    top: 47%;
+    left: 50%;
+}
+
+.tictac {
+	margin: 3px;
+	width: 80px;
+	height: 80px;
+	border: 1px solid lightskyblue;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor:url(FleurDeLis.cur), auto;
+	font-size: 40px;
+}
+
+#music {
+	transform: translate(-50%, -50%);
+	position: absolute;
+    bottom: -27%;
+    left: 50%;
+}
+
+.nav {
+    list-style-type: none;
+    padding-right: 0px;
+    padding-left: 125px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#next {
+    position: relative;
+    left: 488px;
+    top: -75px;
+}
+
+#homepage {
+    position: fixed;
+    left: 330px;
+    top: 125px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #8C8CFF;
+    border: none;
+}
+
+.button:hover {
+    background-color: #111;
+    color: lightblue;
+    border: 1px solid grey;
+}
+
+#info {
+	width: 90px;
+    height: 100px;
+    background: white;
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s
+    color: black;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    padding: 10px;
+}
+
+#info:hover {
+    width: 200px;
+    height: 250px;
+}
